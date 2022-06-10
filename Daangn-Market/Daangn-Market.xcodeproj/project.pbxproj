@@ -23,6 +23,8 @@
 		4A3774AA28535BE1009D0351 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3774A928535BE1009D0351 /* TabBarViewController.swift */; };
 		4A3774AC28535DAE009D0351 /* ListItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3774AB28535DAE009D0351 /* ListItem.storyboard */; };
 		4A3774AE28535DC0009D0351 /* ListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3774AD28535DC0009D0351 /* ListItemViewController.swift */; };
+		4A73888E2853A0FD00ABC272 /* ListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A73888C2853A0FD00ABC272 /* ListItemTableViewCell.xib */; };
+		4A73888F2853A0FD00ABC272 /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73888D2853A0FD00ABC272 /* ListItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		4A3774A928535BE1009D0351 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4A3774AB28535DAE009D0351 /* ListItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListItem.storyboard; sourceTree = "<group>"; };
 		4A3774AD28535DC0009D0351 /* ListItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewController.swift; sourceTree = "<group>"; };
+		4A73888C2853A0FD00ABC272 /* ListItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListItemTableViewCell.xib; sourceTree = "<group>"; };
+		4A73888D2853A0FD00ABC272 /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		4A37748B28535823009D0351 /* ListItem */ = {
 			isa = PBXGroup;
 			children = (
+				4A73888B2853A0FD00ABC272 /* Cell */,
 				4A3774AB28535DAE009D0351 /* ListItem.storyboard */,
 				4A3774AD28535DC0009D0351 /* ListItemViewController.swift */,
 			);
@@ -191,6 +196,15 @@
 				4A3774A728535974009D0351 /* MyDaangn.storyboard */,
 			);
 			path = MyDaangn;
+			sourceTree = "<group>";
+		};
+		4A73888B2853A0FD00ABC272 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4A73888C2853A0FD00ABC272 /* ListItemTableViewCell.xib */,
+				4A73888D2853A0FD00ABC272 /* ListItemTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A73888E2853A0FD00ABC272 /* ListItemTableViewCell.xib in Resources */,
 				4A3774A228535956009D0351 /* Chat.storyboard in Resources */,
 				4A3774A828535974009D0351 /* MyDaangn.storyboard in Resources */,
 				4A377498285358D3009D0351 /* Neighborhood.storyboard in Resources */,
@@ -277,6 +292,7 @@
 				4A37746B28531401009D0351 /* SceneDelegate.swift in Sources */,
 				4A3774A62853596D009D0351 /* MyDaangnViewController.swift in Sources */,
 				4A37749C285358E7009D0351 /* MyPlaceViewController.swift in Sources */,
+				4A73888F2853A0FD00ABC272 /* ListItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
