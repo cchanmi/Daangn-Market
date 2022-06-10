@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.1)
+  - ImagePicker (3.2.0)
+  - Kingfisher (7.2.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImagePicker
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImagePicker
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  Kingfisher: 8c2cbe0c11ea4d481542895112682a99e058468e
+
+PODFILE CHECKSUM: 23da9bb31b6446f1f062fa524ed26bfea7cd6fdd
+
+COCOAPODS: 1.11.3
