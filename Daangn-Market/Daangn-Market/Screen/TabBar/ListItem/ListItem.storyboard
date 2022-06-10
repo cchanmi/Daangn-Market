@@ -52,8 +52,8 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상봉제 1동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-Fc-bgH" userLabel="주소">
-                                        <rect key="frame" x="15" y="12" width="71" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="15" y="11.5" width="75.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -67,17 +67,35 @@
                                     <constraint firstAttribute="trailing" secondItem="Zwu-3I-Tod" secondAttribute="trailing" constant="16" id="TuJ-1U-sRy"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="C5z-sp-eeB">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trq-P8-g4P">
+                                <rect key="frame" x="324" y="730" width="78" height="68"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Group 62"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="C5z-sp-eeB" firstAttribute="top" secondItem="eO9-vp-inS" secondAttribute="bottom" id="4xB-6X-7Ha"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="eO9-vp-inS" secondAttribute="top" id="7r5-qS-Fpb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Trq-P8-g4P" secondAttribute="bottom" constant="15" id="CFz-KX-YVH"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Trq-P8-g4P" secondAttribute="trailing" constant="12" id="JTG-YN-aYu"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eO9-vp-inS" secondAttribute="trailing" id="PEu-SO-iTi"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="C5z-sp-eeB" secondAttribute="bottom" id="RKE-LS-U5k"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="C5z-sp-eeB" secondAttribute="trailing" id="nz5-Xe-lrh"/>
                             <constraint firstItem="eO9-vp-inS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="wf3-CR-hoa"/>
+                            <constraint firstItem="C5z-sp-eeB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ypd-fn-fET"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="and_icon_home_low" selectedImage="bottom_home" id="5Pa-dB-rQf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="C5z-sp-eeB" id="2C6-OZ-9bR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -85,6 +103,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Group 62" width="54" height="54"/>
         <image name="and_icon_home_low" width="48" height="48"/>
         <image name="bottom_home" width="48" height="48"/>
         <image name="ios_icon_local_navi" width="24" height="24"/>
