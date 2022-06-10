@@ -11,6 +11,18 @@
 		4A37746B28531401009D0351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37746A28531401009D0351 /* SceneDelegate.swift */; };
 		4A37747228531402009D0351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A37747128531402009D0351 /* Assets.xcassets */; };
 		4A37747528531402009D0351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A37747328531402009D0351 /* LaunchScreen.storyboard */; };
+		4A37748A285351E4009D0351 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A377489285351E4009D0351 /* TabBar.storyboard */; };
+		4A377498285358D3009D0351 /* Neighborhood.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A377497285358D3009D0351 /* Neighborhood.storyboard */; };
+		4A37749A285358DF009D0351 /* NeighborhoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A377499285358DF009D0351 /* NeighborhoodViewController.swift */; };
+		4A37749C285358E7009D0351 /* MyPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37749B285358E7009D0351 /* MyPlaceViewController.swift */; };
+		4A37749E285358EC009D0351 /* MyPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A37749D285358EC009D0351 /* MyPlace.storyboard */; };
+		4A3774A228535956009D0351 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3774A128535956009D0351 /* Chat.storyboard */; };
+		4A3774A428535963009D0351 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3774A328535963009D0351 /* ChatViewController.swift */; };
+		4A3774A62853596D009D0351 /* MyDaangnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3774A52853596D009D0351 /* MyDaangnViewController.swift */; };
+		4A3774A828535974009D0351 /* MyDaangn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3774A728535974009D0351 /* MyDaangn.storyboard */; };
+		4A3774AA28535BE1009D0351 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3774A928535BE1009D0351 /* TabBarViewController.swift */; };
+		4A3774AC28535DAE009D0351 /* ListItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3774AB28535DAE009D0351 /* ListItem.storyboard */; };
+		4A3774AE28535DC0009D0351 /* ListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3774AD28535DC0009D0351 /* ListItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,18 @@
 		4A37747128531402009D0351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A37747428531402009D0351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A37747628531402009D0351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A377489285351E4009D0351 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		4A377497285358D3009D0351 /* Neighborhood.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Neighborhood.storyboard; sourceTree = "<group>"; };
+		4A377499285358DF009D0351 /* NeighborhoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodViewController.swift; sourceTree = "<group>"; };
+		4A37749B285358E7009D0351 /* MyPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaceViewController.swift; sourceTree = "<group>"; };
+		4A37749D285358EC009D0351 /* MyPlace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPlace.storyboard; sourceTree = "<group>"; };
+		4A3774A128535956009D0351 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		4A3774A328535963009D0351 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4A3774A52853596D009D0351 /* MyDaangnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDaangnViewController.swift; sourceTree = "<group>"; };
+		4A3774A728535974009D0351 /* MyDaangn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyDaangn.storyboard; sourceTree = "<group>"; };
+		4A3774A928535BE1009D0351 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4A3774AB28535DAE009D0351 /* ListItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListItem.storyboard; sourceTree = "<group>"; };
+		4A3774AD28535DC0009D0351 /* ListItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +137,60 @@
 		4A37748428534F8A009D0351 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				4A377489285351E4009D0351 /* TabBar.storyboard */,
+				4A3774A928535BE1009D0351 /* TabBarViewController.swift */,
+				4A37748B28535823009D0351 /* ListItem */,
+				4A37748C2853582B009D0351 /* Neighborhood */,
+				4A37748D28535858009D0351 /* MyPlace */,
+				4A37748E2853585D009D0351 /* Chat */,
+				4A37748F28535864009D0351 /* MyDaangn */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4A37748B28535823009D0351 /* ListItem */ = {
+			isa = PBXGroup;
+			children = (
+				4A3774AB28535DAE009D0351 /* ListItem.storyboard */,
+				4A3774AD28535DC0009D0351 /* ListItemViewController.swift */,
+			);
+			path = ListItem;
+			sourceTree = "<group>";
+		};
+		4A37748C2853582B009D0351 /* Neighborhood */ = {
+			isa = PBXGroup;
+			children = (
+				4A377497285358D3009D0351 /* Neighborhood.storyboard */,
+				4A377499285358DF009D0351 /* NeighborhoodViewController.swift */,
+			);
+			path = Neighborhood;
+			sourceTree = "<group>";
+		};
+		4A37748D28535858009D0351 /* MyPlace */ = {
+			isa = PBXGroup;
+			children = (
+				4A37749B285358E7009D0351 /* MyPlaceViewController.swift */,
+				4A37749D285358EC009D0351 /* MyPlace.storyboard */,
+			);
+			path = MyPlace;
+			sourceTree = "<group>";
+		};
+		4A37748E2853585D009D0351 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				4A3774A128535956009D0351 /* Chat.storyboard */,
+				4A3774A328535963009D0351 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		4A37748F28535864009D0351 /* MyDaangn */ = {
+			isa = PBXGroup;
+			children = (
+				4A3774A52853596D009D0351 /* MyDaangnViewController.swift */,
+				4A3774A728535974009D0351 /* MyDaangn.storyboard */,
+			);
+			path = MyDaangn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3774A228535956009D0351 /* Chat.storyboard in Resources */,
+				4A3774A828535974009D0351 /* MyDaangn.storyboard in Resources */,
+				4A377498285358D3009D0351 /* Neighborhood.storyboard in Resources */,
 				4A37747528531402009D0351 /* LaunchScreen.storyboard in Resources */,
+				4A37749E285358EC009D0351 /* MyPlace.storyboard in Resources */,
+				4A3774AC28535DAE009D0351 /* ListItem.storyboard in Resources */,
+				4A37748A285351E4009D0351 /* TabBar.storyboard in Resources */,
 				4A37747228531402009D0351 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,8 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3774AA28535BE1009D0351 /* TabBarViewController.swift in Sources */,
+				4A3774AE28535DC0009D0351 /* ListItemViewController.swift in Sources */,
+				4A37749A285358DF009D0351 /* NeighborhoodViewController.swift in Sources */,
 				4A37746928531401009D0351 /* AppDelegate.swift in Sources */,
+				4A3774A428535963009D0351 /* ChatViewController.swift in Sources */,
 				4A37746B28531401009D0351 /* SceneDelegate.swift in Sources */,
+				4A3774A62853596D009D0351 /* MyDaangnViewController.swift in Sources */,
+				4A37749C285358E7009D0351 /* MyPlaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +419,7 @@
 				INFOPLIST_FILE = "Daangn-Market/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,7 +446,7 @@
 				INFOPLIST_FILE = "Daangn-Market/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
