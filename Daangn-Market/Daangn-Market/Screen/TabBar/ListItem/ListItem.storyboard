@@ -8,25 +8,88 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--List Item View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="ListItemViewController" id="Y6W-OH-hqX" customClass="ListItemViewController" customModule="Daangn_Market" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eO9-vp-inS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="Zwu-3I-Tod">
+                                        <rect key="frame" x="288" y="10" width="110" height="24"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wrv-p9-wbG" userLabel="Search">
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="B2H-Hr-YVx"/>
+                                                    <constraint firstAttribute="height" constant="24" id="j6O-Uo-Usb"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ios_icon_local_navi"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVW-uD-v6i" userLabel="list">
+                                                <rect key="frame" x="43" y="0.0" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="3Oh-iP-Wut"/>
+                                                    <constraint firstAttribute="height" constant="24" id="bcI-He-Qsa"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ios_icon_local_navi-1"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xya-b5-8v3" userLabel="alarm">
+                                                <rect key="frame" x="86" y="0.0" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="e7J-DU-x01"/>
+                                                    <constraint firstAttribute="width" constant="24" id="esk-p9-cIU"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="ios_icon_local_navi-2"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상봉제 1동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-Fc-bgH" userLabel="주소">
+                                        <rect key="frame" x="15" y="12" width="71" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="lKe-Fc-bgH" firstAttribute="leading" secondItem="eO9-vp-inS" secondAttribute="leading" constant="15" id="0cv-o6-OZS"/>
+                                    <constraint firstAttribute="height" constant="44" id="9ZW-4i-ECI"/>
+                                    <constraint firstItem="Zwu-3I-Tod" firstAttribute="centerY" secondItem="eO9-vp-inS" secondAttribute="centerY" id="Erx-eD-6ML"/>
+                                    <constraint firstItem="lKe-Fc-bgH" firstAttribute="centerY" secondItem="eO9-vp-inS" secondAttribute="centerY" id="PTd-jF-uvT"/>
+                                    <constraint firstAttribute="trailing" secondItem="Zwu-3I-Tod" secondAttribute="trailing" constant="16" id="TuJ-1U-sRy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="eO9-vp-inS" secondAttribute="top" id="7r5-qS-Fpb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eO9-vp-inS" secondAttribute="trailing" id="PEu-SO-iTi"/>
+                            <constraint firstItem="eO9-vp-inS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="wf3-CR-hoa"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5Pa-dB-rQf"/>
+                    <tabBarItem key="tabBarItem" title="" image="and_icon_home_low" selectedImage="bottom_home" id="5Pa-dB-rQf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9" y="94"/>
+            <point key="canvasLocation" x="8.6956521739130448" y="93.75"/>
         </scene>
     </scenes>
     <resources>
+        <image name="and_icon_home_low" width="48" height="48"/>
+        <image name="bottom_home" width="48" height="48"/>
+        <image name="ios_icon_local_navi" width="24" height="24"/>
+        <image name="ios_icon_local_navi-1" width="24" height="24"/>
+        <image name="ios_icon_local_navi-2" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
